@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProductAppWithDbApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Code Pipeline");
 		SpringApplication.run(ProductAppWithDbApplication.class, args);
 	}
 
