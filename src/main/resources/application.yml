@@ -4,11 +4,11 @@ spring:
    application:
      name: product-service
    datasource:
-#      url: jdbc:mysql://productdb.ckmbywngneqj.ap-northeast-1.rds.amazonaws.com:3306/productdb
-      url: jdbc:mysql://zensar-db.ctsqoxojoswx.us-east-1.rds.amazonaws.com:3306/productdb
+      url: jdbc:mysql://my-database.ctsqoxojoswx.us-east-1.rds.amazonaws.com:3306/productdb
+#      url: jdbc:mysql://localhost:3306/productdb
       driver-class-name: com.mysql.cj.jdbc.Driver
-      username: admin
-      password: admin1234
+      username: root
+      password: root1234
    jpa:
       hibernate.ddl-auto: update
       properties:
