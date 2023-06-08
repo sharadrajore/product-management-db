@@ -28,6 +28,7 @@ public class ProductController {
 	
 	@GetMapping("/product")
 	public @ResponseBody List<Product> getAllProducts() {
+		System.out.println("HI");
 		return productService.getAllProducts();
 	}
 
